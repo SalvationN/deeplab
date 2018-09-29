@@ -20,7 +20,7 @@ checkpoint_dir=$train_dir
 
 # 因为dataset里面的东西是不允许修改的，所以这里要把config文件复制一份到输出目录
 
-python ./deeplab/train.py --logtostderr --train_logdir $train_dir --tf_initial_checkpoint /data/qq-39925317/drivable/model.ckpt --dataset_dir $dataset_dir --model_variant xception_65
+python ./deeplab/train.py --logtostderr --train_logdir $train_dir --tf_initial_checkpoint /data/qq-39925317/driving-segmentation/model.ckpt --dataset_dir $dataset_dir --model_variant xception_65
 
 
 
