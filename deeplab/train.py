@@ -81,7 +81,7 @@ flags.DEFINE_enum('learning_policy', 'poly', ['poly', 'step'],
 flags.DEFINE_float('base_learning_rate', .0001,
                    'The base learning rate for model training.')
 
-flags.DEFINE_float('learning_rate_decay_factor', 0.1,
+flags.DEFINE_float('learning_rate_decay_factor', 0.01,
                    'The rate to decay the base learning rate.')
 
 flags.DEFINE_integer('learning_rate_decay_step', 2000,
